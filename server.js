@@ -110,4 +110,4 @@ app.delete('/user/:userId/', async (request, response) => {
     response.send('user removed')
 })
 
-module.export = server
+module.exports = server;
